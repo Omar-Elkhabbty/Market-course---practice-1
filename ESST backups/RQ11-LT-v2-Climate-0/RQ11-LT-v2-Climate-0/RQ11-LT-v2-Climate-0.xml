@@ -1,0 +1,4929 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Cases>
+  <Case>
+    <name>RQ11-LT-v2-Climate-0</name>
+    <date>09/10/2026</date>
+    <currency>EUR</currency>
+    <units>GWh</units>
+    <description>Smart Electric Market practice | RQ11-LT-v2-Climate-0</description>
+    <version>2.7.0.</version>
+  </Case>
+  <Sectors>
+    <Industry>1</Industry>
+    <Transport>1</Transport>
+    <Residential>1</Residential>
+    <Commercial>1</Commercial>
+    <Agriculture>1</Agriculture>
+    <Fishing>1</Fishing>
+    <Non_energy_use>1</Non_energy_use>
+    <Other>1</Other>
+  </Sectors>
+  <Fuels>
+    <Electricity>1</Electricity>
+    <Coal>1</Coal>
+    <Oil>1</Oil>
+    <Gas>1</Gas>
+    <Biofuels>1</Biofuels>
+    <Peat>1</Peat>
+    <Heat>1</Heat>
+    <Waste>1</Waste>
+    <OilShale>1</OilShale>
+  </Fuels>
+  <Years>
+    <_1990>0</_1990>
+    <_2000>0</_2000>
+    <_2005>0</_2005>
+    <_2010>0</_2010>
+    <_2015>0</_2015>
+    <_2020>0</_2020>
+    <_2025>1</_2025>
+    <_2030>1</_2030>
+    <_2035>1</_2035>
+    <_2040>1</_2040>
+    <_2045>1</_2045>
+    <_2050>1</_2050>
+  </Years>
+  <ElMix_fuels>
+    <Hydro>1</Hydro>
+    <Coal>1</Coal>
+    <Oil>1</Oil>
+    <Gas>1</Gas>
+    <Biofuels>1</Biofuels>
+    <Peat>1</Peat>
+    <Waste>1</Waste>
+    <OilShale>1</OilShale>
+    <Solar>1</Solar>
+    <Wind>1</Wind>
+    <Geothermal>1</Geothermal>
+    <Nuclear>1</Nuclear>
+    <ImportExport>1</ImportExport>
+  </ElMix_fuels>
+  <Final_energy_demand>
+    <fed_bysectors year="1990">
+      <Industry />
+      <Transport />
+      <Residential />
+      <Commercial />
+      <Agriculture />
+      <Fishing />
+      <Non_energy_use />
+      <Other />
+    </fed_bysectors>
+    <fed_bysectors year="2000">
+      <Industry />
+      <Transport />
+      <Residential />
+      <Commercial />
+      <Agriculture />
+      <Fishing />
+      <Non_energy_use />
+      <Other />
+    </fed_bysectors>
+    <fed_bysectors year="2005">
+      <Industry />
+      <Transport />
+      <Residential />
+      <Commercial />
+      <Agriculture />
+      <Fishing />
+      <Non_energy_use />
+      <Other />
+    </fed_bysectors>
+    <fed_bysectors year="2010">
+      <Industry />
+      <Transport />
+      <Residential />
+      <Commercial />
+      <Agriculture />
+      <Fishing />
+      <Non_energy_use />
+      <Other />
+    </fed_bysectors>
+    <fed_bysectors year="2015">
+      <Industry />
+      <Transport />
+      <Residential />
+      <Commercial />
+      <Agriculture />
+      <Fishing />
+      <Non_energy_use />
+      <Other />
+    </fed_bysectors>
+    <fed_bysectors year="2020">
+      <Industry />
+      <Transport />
+      <Residential />
+      <Commercial />
+      <Agriculture />
+      <Fishing />
+      <Non_energy_use />
+      <Other />
+    </fed_bysectors>
+    <fed_bysectors year="2025">
+      <Industry>11382</Industry>
+      <Transport>26006</Transport>
+      <Residential>18912</Residential>
+      <Commercial>7436</Commercial>
+      <Agriculture>1489</Agriculture>
+      <Fishing>5</Fishing>
+      <Non_energy_use>8069</Non_energy_use>
+      <Other>155</Other>
+    </fed_bysectors>
+    <fed_bysectors year="2030">
+      <Industry>10915</Industry>
+      <Transport>28068</Transport>
+      <Residential>20272</Residential>
+      <Commercial>7644</Commercial>
+      <Agriculture>1647</Agriculture>
+      <Fishing>0</Fishing>
+      <Non_energy_use>4901</Non_energy_use>
+      <Other>185</Other>
+    </fed_bysectors>
+    <fed_bysectors year="2035">
+      <Industry>10448</Industry>
+      <Transport>30131</Transport>
+      <Residential>21632</Residential>
+      <Commercial>7853</Commercial>
+      <Agriculture>1805</Agriculture>
+      <Fishing>0</Fishing>
+      <Non_energy_use>1732</Non_energy_use>
+      <Other>215</Other>
+    </fed_bysectors>
+    <fed_bysectors year="2040">
+      <Industry>9980</Industry>
+      <Transport>32193</Transport>
+      <Residential>22992</Residential>
+      <Commercial>8062</Commercial>
+      <Agriculture>1963</Agriculture>
+      <Fishing>0</Fishing>
+      <Non_energy_use>0</Non_energy_use>
+      <Other>246</Other>
+    </fed_bysectors>
+    <fed_bysectors year="2045">
+      <Industry>9513</Industry>
+      <Transport>34255</Transport>
+      <Residential>24352</Residential>
+      <Commercial>8271</Commercial>
+      <Agriculture>2121</Agriculture>
+      <Fishing>0</Fishing>
+      <Non_energy_use>0</Non_energy_use>
+      <Other>276</Other>
+    </fed_bysectors>
+    <fed_bysectors year="2050">
+      <Industry>9046</Industry>
+      <Transport>36317</Transport>
+      <Residential>25712</Residential>
+      <Commercial>8480</Commercial>
+      <Agriculture>2279</Agriculture>
+      <Fishing>0</Fishing>
+      <Non_energy_use>0</Non_energy_use>
+      <Other>306</Other>
+    </fed_bysectors>
+    <fed_fuelshares year="1990" sector="Industry">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="1990" sector="Transport">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="1990" sector="Residential">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="1990" sector="Commercial">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="1990" sector="Agriculture">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="1990" sector="Fishing">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="1990" sector="Non_energy_use">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="1990" sector="Other">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2000" sector="Industry">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2000" sector="Transport">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2000" sector="Residential">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2000" sector="Commercial">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2000" sector="Agriculture">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2000" sector="Fishing">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2000" sector="Non_energy_use">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2000" sector="Other">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2005" sector="Industry">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2005" sector="Transport">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2005" sector="Residential">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2005" sector="Commercial">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2005" sector="Agriculture">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2005" sector="Fishing">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2005" sector="Non_energy_use">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2005" sector="Other">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2010" sector="Industry">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2010" sector="Transport">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2010" sector="Residential">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2010" sector="Commercial">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2010" sector="Agriculture">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2010" sector="Fishing">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2010" sector="Non_energy_use">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2010" sector="Other">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2015" sector="Industry">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2015" sector="Transport">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2015" sector="Residential">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2015" sector="Commercial">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2015" sector="Agriculture">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2015" sector="Fishing">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2015" sector="Non_energy_use">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2015" sector="Other">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2020" sector="Industry">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2020" sector="Transport">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2020" sector="Residential">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2020" sector="Commercial">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2020" sector="Agriculture">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2020" sector="Fishing">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2020" sector="Non_energy_use">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2020" sector="Other">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_fuelshares>
+    <fed_fuelshares year="2025" sector="Industry">
+      <Electricity>32.32</Electricity>
+      <Coal>8.35</Coal>
+      <Oil>5.02</Oil>
+      <Gas>26.78</Gas>
+      <Biofuels>14.99</Biofuels>
+      <Peat>0</Peat>
+      <Heat>9.91</Heat>
+      <Waste>2.63</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2025" sector="Transport">
+      <Electricity>0.42</Electricity>
+      <Coal>0</Coal>
+      <Oil>91.81</Oil>
+      <Gas>1.25</Gas>
+      <Biofuels>6.52</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2025" sector="Residential">
+      <Electricity>18.09</Electricity>
+      <Coal>0.92</Coal>
+      <Oil>4.63</Oil>
+      <Gas>12.86</Gas>
+      <Biofuels>34.91</Biofuels>
+      <Peat>0.45</Peat>
+      <Heat>28.14</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2025" sector="Commercial">
+      <Electricity>48.98</Electricity>
+      <Coal>1.42</Coal>
+      <Oil>0.48</Oil>
+      <Gas>13.92</Gas>
+      <Biofuels>7.08</Biofuels>
+      <Peat>0.66</Peat>
+      <Heat>27.45</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2025" sector="Agriculture">
+      <Electricity>8.65</Electricity>
+      <Coal>0.22</Coal>
+      <Oil>68.95</Oil>
+      <Gas>10.48</Gas>
+      <Biofuels>10.31</Biofuels>
+      <Peat>0.09</Peat>
+      <Heat>1.31</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2025" sector="Fishing">
+      <Electricity>43.95</Electricity>
+      <Coal>0</Coal>
+      <Oil>56.05</Oil>
+      <Gas>0</Gas>
+      <Biofuels>0</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2025" sector="Non_energy_use">
+      <Electricity>0</Electricity>
+      <Coal>0.08</Coal>
+      <Oil>30.16</Oil>
+      <Gas>69.76</Gas>
+      <Biofuels>0</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2025" sector="Other">
+      <Electricity>0</Electricity>
+      <Coal>0</Coal>
+      <Oil>98.53</Oil>
+      <Gas>0</Gas>
+      <Biofuels>1.47</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2030" sector="Industry">
+      <Electricity>34.31</Electricity>
+      <Coal>7.87</Coal>
+      <Oil>5.96</Oil>
+      <Gas>25.74</Gas>
+      <Biofuels>18.53</Biofuels>
+      <Peat>0</Peat>
+      <Heat>3.09</Heat>
+      <Waste>4.51</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2030" sector="Transport">
+      <Electricity>0.47</Electricity>
+      <Coal>0</Coal>
+      <Oil>90.51</Oil>
+      <Gas>1.1</Gas>
+      <Biofuels>7.92</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2030" sector="Residential">
+      <Electricity>18.62</Electricity>
+      <Coal>0.09</Coal>
+      <Oil>5.22</Oil>
+      <Gas>14.03</Gas>
+      <Biofuels>35.58</Biofuels>
+      <Peat>0.17</Peat>
+      <Heat>26.3</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2030" sector="Commercial">
+      <Electricity>50.13</Electricity>
+      <Coal>0</Coal>
+      <Oil>0.52</Oil>
+      <Gas>15.56</Gas>
+      <Biofuels>7.53</Biofuels>
+      <Peat>0.44</Peat>
+      <Heat>25.82</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2030" sector="Agriculture">
+      <Electricity>6.53</Electricity>
+      <Coal>0</Coal>
+      <Oil>75.61</Oil>
+      <Gas>7.81</Gas>
+      <Biofuels>9.48</Biofuels>
+      <Peat>0.01</Peat>
+      <Heat>0.56</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2030" sector="Fishing">
+      <Electricity>100</Electricity>
+      <Coal>0</Coal>
+      <Oil>0</Oil>
+      <Gas>0</Gas>
+      <Biofuels>0</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2030" sector="Non_energy_use">
+      <Electricity>0</Electricity>
+      <Coal>0.21</Coal>
+      <Oil>48.75</Oil>
+      <Gas>51.04</Gas>
+      <Biofuels>0</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2030" sector="Other">
+      <Electricity>0</Electricity>
+      <Coal>0</Coal>
+      <Oil>98.06</Oil>
+      <Gas>0</Gas>
+      <Biofuels>1.94</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2035" sector="Industry">
+      <Electricity>34.96</Electricity>
+      <Coal>7.04</Coal>
+      <Oil>6.7</Oil>
+      <Gas>23.59</Gas>
+      <Biofuels>21.44</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>6.28</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2035" sector="Transport">
+      <Electricity>0.52</Electricity>
+      <Coal>0</Coal>
+      <Oil>89.38</Oil>
+      <Gas>0.98</Gas>
+      <Biofuels>9.13</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2035" sector="Residential">
+      <Electricity>18.95</Electricity>
+      <Coal>0</Coal>
+      <Oil>5.69</Oil>
+      <Gas>14.94</Gas>
+      <Biofuels>35.9</Biofuels>
+      <Peat>0</Peat>
+      <Heat>24.52</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2035" sector="Commercial">
+      <Electricity>50.53</Electricity>
+      <Coal>0</Coal>
+      <Oil>0.54</Oil>
+      <Gas>16.87</Gas>
+      <Biofuels>7.85</Biofuels>
+      <Peat>0.23</Peat>
+      <Heat>23.97</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2035" sector="Agriculture">
+      <Electricity>5.2</Electricity>
+      <Coal>0</Coal>
+      <Oil>79.61</Oil>
+      <Gas>6.15</Gas>
+      <Biofuels>8.96</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0.09</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2035" sector="Fishing">
+      <Electricity>100</Electricity>
+      <Coal>0</Coal>
+      <Oil>0</Oil>
+      <Gas>0</Gas>
+      <Biofuels>0</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2035" sector="Non_energy_use">
+      <Electricity>0</Electricity>
+      <Coal>0.61</Coal>
+      <Oil>99.39</Oil>
+      <Gas>0</Gas>
+      <Biofuels>0</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2035" sector="Other">
+      <Electricity>0</Electricity>
+      <Coal>0</Coal>
+      <Oil>97.72</Oil>
+      <Gas>0</Gas>
+      <Biofuels>2.28</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2040" sector="Industry">
+      <Electricity>34.54</Electricity>
+      <Coal>6.02</Coal>
+      <Oil>7.21</Oil>
+      <Gas>20.8</Gas>
+      <Biofuels>23.62</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>7.81</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2040" sector="Transport">
+      <Electricity>0.56</Electricity>
+      <Coal>0</Coal>
+      <Oil>88.39</Oil>
+      <Gas>0.87</Gas>
+      <Biofuels>10.18</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2040" sector="Residential">
+      <Electricity>19.19</Electricity>
+      <Coal>0</Coal>
+      <Oil>6.08</Oil>
+      <Gas>15.71</Gas>
+      <Biofuels>36.11</Biofuels>
+      <Peat>0</Peat>
+      <Heat>22.91</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2040" sector="Commercial">
+      <Electricity>50.9</Electricity>
+      <Coal>0</Coal>
+      <Oil>0.57</Oil>
+      <Gas>18.07</Gas>
+      <Biofuels>8.14</Biofuels>
+      <Peat>0.04</Peat>
+      <Heat>22.28</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2040" sector="Agriculture">
+      <Electricity>4.29</Electricity>
+      <Coal>0</Coal>
+      <Oil>82.12</Oil>
+      <Gas>5.01</Gas>
+      <Biofuels>8.58</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2040" sector="Fishing">
+      <Electricity>100</Electricity>
+      <Coal>0</Coal>
+      <Oil>0</Oil>
+      <Gas>0</Gas>
+      <Biofuels>0</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2040" sector="Non_energy_use">
+      <Electricity>0</Electricity>
+      <Coal>0.8</Coal>
+      <Oil>99.2</Oil>
+      <Gas>0</Gas>
+      <Biofuels>0</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2040" sector="Other">
+      <Electricity>0</Electricity>
+      <Coal>0</Coal>
+      <Oil>97.47</Oil>
+      <Gas>0</Gas>
+      <Biofuels>2.53</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2045" sector="Industry">
+      <Electricity>34.15</Electricity>
+      <Coal>5.06</Coal>
+      <Oil>7.69</Oil>
+      <Gas>18.17</Gas>
+      <Biofuels>25.67</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>9.25</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2045" sector="Transport">
+      <Electricity>0.6</Electricity>
+      <Coal>0</Coal>
+      <Oil>87.53</Oil>
+      <Gas>0.77</Gas>
+      <Biofuels>11.11</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2045" sector="Residential">
+      <Electricity>19.4</Electricity>
+      <Coal>0</Coal>
+      <Oil>6.43</Oil>
+      <Gas>16.37</Gas>
+      <Biofuels>36.28</Biofuels>
+      <Peat>0</Peat>
+      <Heat>21.51</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2045" sector="Commercial">
+      <Electricity>51.17</Electricity>
+      <Coal>0</Coal>
+      <Oil>0.59</Oil>
+      <Gas>19.14</Gas>
+      <Biofuels>8.39</Biofuels>
+      <Peat>0</Peat>
+      <Heat>20.7</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2045" sector="Agriculture">
+      <Electricity>3.63</Electricity>
+      <Coal>0</Coal>
+      <Oil>83.89</Oil>
+      <Gas>4.19</Gas>
+      <Biofuels>8.3</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2045" sector="Fishing">
+      <Electricity>100</Electricity>
+      <Coal>0</Coal>
+      <Oil>0</Oil>
+      <Gas>0</Gas>
+      <Biofuels>0</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2045" sector="Non_energy_use">
+      <Electricity>0</Electricity>
+      <Coal>0.99</Coal>
+      <Oil>99.01</Oil>
+      <Gas>0</Gas>
+      <Biofuels>0</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2045" sector="Other">
+      <Electricity>0</Electricity>
+      <Coal>0</Coal>
+      <Oil>97.27</Oil>
+      <Gas>0</Gas>
+      <Biofuels>2.73</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2050" sector="Industry">
+      <Electricity>33.78</Electricity>
+      <Coal>4.16</Coal>
+      <Oil>8.15</Oil>
+      <Gas>15.68</Gas>
+      <Biofuels>27.61</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>10.61</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2050" sector="Transport">
+      <Electricity>0.63</Electricity>
+      <Coal>0</Coal>
+      <Oil>86.76</Oil>
+      <Gas>0.68</Gas>
+      <Biofuels>11.93</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2050" sector="Residential">
+      <Electricity>19.59</Electricity>
+      <Coal>0</Coal>
+      <Oil>6.74</Oil>
+      <Gas>16.96</Gas>
+      <Biofuels>36.44</Biofuels>
+      <Peat>0</Peat>
+      <Heat>20.28</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2050" sector="Commercial">
+      <Electricity>51.4</Electricity>
+      <Coal>0</Coal>
+      <Oil>0.61</Oil>
+      <Gas>20.12</Gas>
+      <Biofuels>8.62</Biofuels>
+      <Peat>0</Peat>
+      <Heat>19.24</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2050" sector="Agriculture">
+      <Electricity>3.13</Electricity>
+      <Coal>0</Coal>
+      <Oil>85.21</Oil>
+      <Gas>3.56</Gas>
+      <Biofuels>8.09</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2050" sector="Fishing">
+      <Electricity>100</Electricity>
+      <Coal>0</Coal>
+      <Oil>0</Oil>
+      <Gas>0</Gas>
+      <Biofuels>0</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2050" sector="Non_energy_use">
+      <Electricity>0</Electricity>
+      <Coal>1.19</Coal>
+      <Oil>98.81</Oil>
+      <Gas>0</Gas>
+      <Biofuels>0</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_fuelshares year="2050" sector="Other">
+      <Electricity>0</Electricity>
+      <Coal>0</Coal>
+      <Oil>97.11</Oil>
+      <Gas>0</Gas>
+      <Biofuels>2.89</Biofuels>
+      <Peat>0</Peat>
+      <Heat>0</Heat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </fed_fuelshares>
+    <fed_losses year="1990">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_losses>
+    <fed_losses year="2000">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_losses>
+    <fed_losses year="2005">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_losses>
+    <fed_losses year="2010">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_losses>
+    <fed_losses year="2015">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_losses>
+    <fed_losses year="2020">
+      <Electricity />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_losses>
+    <fed_losses year="2025">
+      <Electricity>12.28</Electricity>
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_losses>
+    <fed_losses year="2030">
+      <Electricity>12.28</Electricity>
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_losses>
+    <fed_losses year="2035">
+      <Electricity>12.28</Electricity>
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_losses>
+    <fed_losses year="2040">
+      <Electricity>12.28</Electricity>
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_losses>
+    <fed_losses year="2045">
+      <Electricity>12.28</Electricity>
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_losses>
+    <fed_losses year="2050">
+      <Electricity>12.28</Electricity>
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Heat />
+      <Waste />
+      <OilShale />
+    </fed_losses>
+  </Final_energy_demand>
+  <Secondary_energy_supplies>
+    <ses_elmix year="1990">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+      <ImportExport />
+    </ses_elmix>
+    <ses_elmix year="2000">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+      <ImportExport />
+    </ses_elmix>
+    <ses_elmix year="2005">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+      <ImportExport />
+    </ses_elmix>
+    <ses_elmix year="2010">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+      <ImportExport />
+    </ses_elmix>
+    <ses_elmix year="2015">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+      <ImportExport />
+    </ses_elmix>
+    <ses_elmix year="2020">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+      <ImportExport />
+    </ses_elmix>
+    <ses_elmix year="2025">
+      <Hydro>2.82</Hydro>
+      <Coal>0</Coal>
+      <Oil>1.47</Oil>
+      <Gas>10.25</Gas>
+      <Biofuels>5.67</Biofuels>
+      <Peat>0</Peat>
+      <Waste>3.2</Waste>
+      <OilShale>0</OilShale>
+      <Solar>14.19</Solar>
+      <Wind>33.66</Wind>
+      <Geothermal>0</Geothermal>
+      <Nuclear>0</Nuclear>
+      <ImportExport>28.74</ImportExport>
+    </ses_elmix>
+    <ses_elmix year="2030">
+      <Hydro>2.7</Hydro>
+      <Coal>0</Coal>
+      <Oil>0</Oil>
+      <Gas>3</Gas>
+      <Biofuels>5</Biofuels>
+      <Peat>0</Peat>
+      <Waste>2</Waste>
+      <OilShale>0</OilShale>
+      <Solar>30</Solar>
+      <Wind>52.3</Wind>
+      <Geothermal>0</Geothermal>
+      <Nuclear>0</Nuclear>
+      <ImportExport>5</ImportExport>
+    </ses_elmix>
+    <ses_elmix year="2035">
+      <Hydro>2.6</Hydro>
+      <Coal>0</Coal>
+      <Oil>0</Oil>
+      <Gas>2</Gas>
+      <Biofuels>5</Biofuels>
+      <Peat>0</Peat>
+      <Waste>1.8</Waste>
+      <OilShale>0</OilShale>
+      <Solar>31</Solar>
+      <Wind>52.6</Wind>
+      <Geothermal>0</Geothermal>
+      <Nuclear>0</Nuclear>
+      <ImportExport>5</ImportExport>
+    </ses_elmix>
+    <ses_elmix year="2040">
+      <Hydro>2.5</Hydro>
+      <Coal>0</Coal>
+      <Oil>0</Oil>
+      <Gas>2</Gas>
+      <Biofuels>5</Biofuels>
+      <Peat>0</Peat>
+      <Waste>1.5</Waste>
+      <OilShale>0</OilShale>
+      <Solar>32</Solar>
+      <Wind>52</Wind>
+      <Geothermal>0</Geothermal>
+      <Nuclear>0</Nuclear>
+      <ImportExport>5</ImportExport>
+    </ses_elmix>
+    <ses_elmix year="2045">
+      <Hydro>2.5</Hydro>
+      <Coal>0</Coal>
+      <Oil>0</Oil>
+      <Gas>1</Gas>
+      <Biofuels>5</Biofuels>
+      <Peat>0</Peat>
+      <Waste>1</Waste>
+      <OilShale>0</OilShale>
+      <Solar>33</Solar>
+      <Wind>53.5</Wind>
+      <Geothermal>0</Geothermal>
+      <Nuclear>0</Nuclear>
+      <ImportExport>4</ImportExport>
+    </ses_elmix>
+    <ses_elmix year="2050">
+      <Hydro>2.5</Hydro>
+      <Coal>0</Coal>
+      <Oil>0</Oil>
+      <Gas>1</Gas>
+      <Biofuels>5</Biofuels>
+      <Peat>0</Peat>
+      <Waste>1</Waste>
+      <OilShale>0</OilShale>
+      <Solar>34</Solar>
+      <Wind>52.5</Wind>
+      <Geothermal>0</Geothermal>
+      <Nuclear>0</Nuclear>
+      <ImportExport>4</ImportExport>
+    </ses_elmix>
+  </Secondary_energy_supplies>
+  <Primary_energy_supplies>
+    <pes_domestic_production year="1990">
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+    </pes_domestic_production>
+    <pes_domestic_production year="2000">
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+    </pes_domestic_production>
+    <pes_domestic_production year="2005">
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+    </pes_domestic_production>
+    <pes_domestic_production year="2010">
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+    </pes_domestic_production>
+    <pes_domestic_production year="2015">
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+    </pes_domestic_production>
+    <pes_domestic_production year="2020">
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+    </pes_domestic_production>
+    <pes_domestic_production year="2025">
+      <Coal>0</Coal>
+      <Oil>0</Oil>
+      <Gas>0</Gas>
+      <Biofuels>0</Biofuels>
+      <Peat>0</Peat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </pes_domestic_production>
+    <pes_domestic_production year="2030">
+      <Coal>0</Coal>
+      <Oil>0</Oil>
+      <Gas>0</Gas>
+      <Biofuels>0</Biofuels>
+      <Peat>0</Peat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </pes_domestic_production>
+    <pes_domestic_production year="2035">
+      <Coal>0</Coal>
+      <Oil>0</Oil>
+      <Gas>0</Gas>
+      <Biofuels>0</Biofuels>
+      <Peat>0</Peat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </pes_domestic_production>
+    <pes_domestic_production year="2040">
+      <Coal>0</Coal>
+      <Oil>0</Oil>
+      <Gas>0</Gas>
+      <Biofuels>0</Biofuels>
+      <Peat>0</Peat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </pes_domestic_production>
+    <pes_domestic_production year="2045">
+      <Coal>0</Coal>
+      <Oil>0</Oil>
+      <Gas>0</Gas>
+      <Biofuels>0</Biofuels>
+      <Peat>0</Peat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </pes_domestic_production>
+    <pes_domestic_production year="2050">
+      <Coal>0</Coal>
+      <Oil>0</Oil>
+      <Gas>0</Gas>
+      <Biofuels>0</Biofuels>
+      <Peat>0</Peat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+    </pes_domestic_production>
+  </Primary_energy_supplies>
+  <Transformation>
+    <tra_efficiency year="1990">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </tra_efficiency>
+    <tra_efficiency year="2000">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </tra_efficiency>
+    <tra_efficiency year="2005">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </tra_efficiency>
+    <tra_efficiency year="2010">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </tra_efficiency>
+    <tra_efficiency year="2015">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </tra_efficiency>
+    <tra_efficiency year="2020">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </tra_efficiency>
+    <tra_efficiency year="2025">
+      <Hydro>100</Hydro>
+      <Coal>36</Coal>
+      <Oil>35</Oil>
+      <Gas>45</Gas>
+      <Biofuels>30</Biofuels>
+      <Peat>32</Peat>
+      <Waste>25</Waste>
+      <OilShale>33</OilShale>
+      <Solar>100</Solar>
+      <Wind>100</Wind>
+      <Geothermal>10</Geothermal>
+      <Nuclear>33</Nuclear>
+    </tra_efficiency>
+    <tra_efficiency year="2030">
+      <Hydro>100</Hydro>
+      <Coal>37</Coal>
+      <Oil>35</Oil>
+      <Gas>48</Gas>
+      <Biofuels>31</Biofuels>
+      <Peat>32</Peat>
+      <Waste>25</Waste>
+      <OilShale>33</OilShale>
+      <Solar>100</Solar>
+      <Wind>100</Wind>
+      <Geothermal>10</Geothermal>
+      <Nuclear>33</Nuclear>
+    </tra_efficiency>
+    <tra_efficiency year="2035">
+      <Hydro>100</Hydro>
+      <Coal>38</Coal>
+      <Oil>35</Oil>
+      <Gas>50</Gas>
+      <Biofuels>32</Biofuels>
+      <Peat>32</Peat>
+      <Waste>25</Waste>
+      <OilShale>33</OilShale>
+      <Solar>100</Solar>
+      <Wind>100</Wind>
+      <Geothermal>10</Geothermal>
+      <Nuclear>33</Nuclear>
+    </tra_efficiency>
+    <tra_efficiency year="2040">
+      <Hydro>100</Hydro>
+      <Coal>39</Coal>
+      <Oil>35</Oil>
+      <Gas>52</Gas>
+      <Biofuels>33</Biofuels>
+      <Peat>32</Peat>
+      <Waste>25</Waste>
+      <OilShale>33</OilShale>
+      <Solar>100</Solar>
+      <Wind>100</Wind>
+      <Geothermal>10</Geothermal>
+      <Nuclear>33</Nuclear>
+    </tra_efficiency>
+    <tra_efficiency year="2045">
+      <Hydro>100</Hydro>
+      <Coal>40</Coal>
+      <Oil>35</Oil>
+      <Gas>54</Gas>
+      <Biofuels>33</Biofuels>
+      <Peat>32</Peat>
+      <Waste>25</Waste>
+      <OilShale>33</OilShale>
+      <Solar>100</Solar>
+      <Wind>100</Wind>
+      <Geothermal>10</Geothermal>
+      <Nuclear>33</Nuclear>
+    </tra_efficiency>
+    <tra_efficiency year="2050">
+      <Hydro>100</Hydro>
+      <Coal>40</Coal>
+      <Oil>35</Oil>
+      <Gas>55</Gas>
+      <Biofuels>33</Biofuels>
+      <Peat>32</Peat>
+      <Waste>25</Waste>
+      <OilShale>33</OilShale>
+      <Solar>100</Solar>
+      <Wind>100</Wind>
+      <Geothermal>10</Geothermal>
+      <Nuclear>33</Nuclear>
+    </tra_efficiency>
+    <tra_reserve_capacity year="1990" total="0">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </tra_reserve_capacity>
+    <tra_reserve_capacity year="2000" total="0">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </tra_reserve_capacity>
+    <tra_reserve_capacity year="2005" total="0">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </tra_reserve_capacity>
+    <tra_reserve_capacity year="2010" total="0">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </tra_reserve_capacity>
+    <tra_reserve_capacity year="2015" total="0">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </tra_reserve_capacity>
+    <tra_reserve_capacity year="2020" total="0">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </tra_reserve_capacity>
+    <tra_reserve_capacity year="2025" total="0">
+      <Hydro />
+      <Coal />
+      <Oil>100</Oil>
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale>0</OilShale>
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+      <ImportExport />
+    </tra_reserve_capacity>
+    <tra_reserve_capacity year="2030" total="1.5">
+      <Hydro />
+      <Coal />
+      <Oil>0</Oil>
+      <Gas>100</Gas>
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale>0</OilShale>
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+      <ImportExport />
+    </tra_reserve_capacity>
+    <tra_reserve_capacity year="2035" total="9.5">
+      <Hydro />
+      <Coal />
+      <Oil>0</Oil>
+      <Gas>100</Gas>
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale>0</OilShale>
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+      <ImportExport />
+    </tra_reserve_capacity>
+    <tra_reserve_capacity year="2040" total="10.5">
+      <Hydro />
+      <Coal />
+      <Oil>0</Oil>
+      <Gas>100</Gas>
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale>0</OilShale>
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+      <ImportExport />
+    </tra_reserve_capacity>
+    <tra_reserve_capacity year="2045" total="11.0">
+      <Hydro />
+      <Coal />
+      <Oil>0</Oil>
+      <Gas>100</Gas>
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale>0</OilShale>
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+      <ImportExport />
+    </tra_reserve_capacity>
+    <tra_reserve_capacity year="2050" total="13.0">
+      <Hydro />
+      <Coal />
+      <Oil>0</Oil>
+      <Gas>100</Gas>
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale>0</OilShale>
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+      <ImportExport />
+    </tra_reserve_capacity>
+    <tra_carbon_cost year="1990">
+      <carbon_cost />
+    </tra_carbon_cost>
+    <tra_carbon_cost year="2000">
+      <carbon_cost />
+    </tra_carbon_cost>
+    <tra_carbon_cost year="2005">
+      <carbon_cost />
+    </tra_carbon_cost>
+    <tra_carbon_cost year="2010">
+      <carbon_cost />
+    </tra_carbon_cost>
+    <tra_carbon_cost year="2015">
+      <carbon_cost />
+    </tra_carbon_cost>
+    <tra_carbon_cost year="2020">
+      <carbon_cost />
+    </tra_carbon_cost>
+    <tra_carbon_cost year="2025">
+      <carbon_cost>75</carbon_cost>
+    </tra_carbon_cost>
+    <tra_carbon_cost year="2030">
+      <carbon_cost>90</carbon_cost>
+    </tra_carbon_cost>
+    <tra_carbon_cost year="2035">
+      <carbon_cost>110</carbon_cost>
+    </tra_carbon_cost>
+    <tra_carbon_cost year="2040">
+      <carbon_cost>130</carbon_cost>
+    </tra_carbon_cost>
+    <tra_carbon_cost year="2045">
+      <carbon_cost>150</carbon_cost>
+    </tra_carbon_cost>
+    <tra_carbon_cost year="2050">
+      <carbon_cost>170</carbon_cost>
+    </tra_carbon_cost>
+    <tra_discount_rate year="1990">
+      <discount_rate />
+    </tra_discount_rate>
+    <tra_discount_rate year="2000">
+      <discount_rate />
+    </tra_discount_rate>
+    <tra_discount_rate year="2005">
+      <discount_rate />
+    </tra_discount_rate>
+    <tra_discount_rate year="2010">
+      <discount_rate />
+    </tra_discount_rate>
+    <tra_discount_rate year="2015">
+      <discount_rate />
+    </tra_discount_rate>
+    <tra_discount_rate year="2020">
+      <discount_rate />
+    </tra_discount_rate>
+    <tra_discount_rate year="2025">
+      <discount_rate>7</discount_rate>
+    </tra_discount_rate>
+    <tra_discount_rate year="2030">
+      <discount_rate>7</discount_rate>
+    </tra_discount_rate>
+    <tra_discount_rate year="2035">
+      <discount_rate>7</discount_rate>
+    </tra_discount_rate>
+    <tra_discount_rate year="2040">
+      <discount_rate>7</discount_rate>
+    </tra_discount_rate>
+    <tra_discount_rate year="2045">
+      <discount_rate>7</discount_rate>
+    </tra_discount_rate>
+    <tra_discount_rate year="2050">
+      <discount_rate>7</discount_rate>
+    </tra_discount_rate>
+    <construction_time year="1990">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </construction_time>
+    <construction_time year="2000">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </construction_time>
+    <construction_time year="2005">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </construction_time>
+    <construction_time year="2010">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </construction_time>
+    <construction_time year="2015">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </construction_time>
+    <construction_time year="2020">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </construction_time>
+    <construction_time year="2025">
+      <Hydro>4</Hydro>
+      <Coal>4</Coal>
+      <Oil>1</Oil>
+      <Gas>2</Gas>
+      <Biofuels>2</Biofuels>
+      <Peat>2</Peat>
+      <Waste>3</Waste>
+      <OilShale>3</OilShale>
+      <Solar>1</Solar>
+      <Wind>2</Wind>
+      <Geothermal>3</Geothermal>
+      <Nuclear>7</Nuclear>
+    </construction_time>
+    <construction_time year="2030">
+      <Hydro>4</Hydro>
+      <Coal>4</Coal>
+      <Oil>1</Oil>
+      <Gas>2</Gas>
+      <Biofuels>2</Biofuels>
+      <Peat>2</Peat>
+      <Waste>3</Waste>
+      <OilShale>3</OilShale>
+      <Solar>1</Solar>
+      <Wind>2</Wind>
+      <Geothermal>3</Geothermal>
+      <Nuclear>7</Nuclear>
+    </construction_time>
+    <construction_time year="2035">
+      <Hydro>4</Hydro>
+      <Coal>4</Coal>
+      <Oil>1</Oil>
+      <Gas>2</Gas>
+      <Biofuels>2</Biofuels>
+      <Peat>2</Peat>
+      <Waste>3</Waste>
+      <OilShale>3</OilShale>
+      <Solar>1</Solar>
+      <Wind>2</Wind>
+      <Geothermal>3</Geothermal>
+      <Nuclear>7</Nuclear>
+    </construction_time>
+    <construction_time year="2040">
+      <Hydro>4</Hydro>
+      <Coal>4</Coal>
+      <Oil>1</Oil>
+      <Gas>2</Gas>
+      <Biofuels>2</Biofuels>
+      <Peat>2</Peat>
+      <Waste>3</Waste>
+      <OilShale>3</OilShale>
+      <Solar>1</Solar>
+      <Wind>2</Wind>
+      <Geothermal>3</Geothermal>
+      <Nuclear>7</Nuclear>
+    </construction_time>
+    <construction_time year="2045">
+      <Hydro>4</Hydro>
+      <Coal>4</Coal>
+      <Oil>1</Oil>
+      <Gas>2</Gas>
+      <Biofuels>2</Biofuels>
+      <Peat>2</Peat>
+      <Waste>3</Waste>
+      <OilShale>3</OilShale>
+      <Solar>1</Solar>
+      <Wind>2</Wind>
+      <Geothermal>3</Geothermal>
+      <Nuclear>7</Nuclear>
+    </construction_time>
+    <construction_time year="2050">
+      <Hydro>4</Hydro>
+      <Coal>4</Coal>
+      <Oil>1</Oil>
+      <Gas>2</Gas>
+      <Biofuels>2</Biofuels>
+      <Peat>2</Peat>
+      <Waste>3</Waste>
+      <OilShale>3</OilShale>
+      <Solar>1</Solar>
+      <Wind>2</Wind>
+      <Geothermal>3</Geothermal>
+      <Nuclear>7</Nuclear>
+    </construction_time>
+    <ens_capacity year="1990">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </ens_capacity>
+    <ens_capacity year="2000">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </ens_capacity>
+    <ens_capacity year="2005">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </ens_capacity>
+    <ens_capacity year="2010">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </ens_capacity>
+    <ens_capacity year="2015">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </ens_capacity>
+    <ens_capacity year="2020">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </ens_capacity>
+    <ens_capacity year="2025">
+      <Hydro>0</Hydro>
+      <Coal>0</Coal>
+      <Oil>0</Oil>
+      <Gas>0</Gas>
+      <Biofuels>0</Biofuels>
+      <Peat>0</Peat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+      <Solar>0</Solar>
+      <Wind>0</Wind>
+      <Geothermal>0</Geothermal>
+      <Nuclear>0</Nuclear>
+      <ImportExport>0</ImportExport>
+    </ens_capacity>
+    <ens_capacity year="2030">
+      <Hydro>0</Hydro>
+      <Coal>0</Coal>
+      <Oil>0</Oil>
+      <Gas>0</Gas>
+      <Biofuels>0</Biofuels>
+      <Peat>0</Peat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+      <Solar>0</Solar>
+      <Wind>0</Wind>
+      <Geothermal>0</Geothermal>
+      <Nuclear>0</Nuclear>
+      <ImportExport>0</ImportExport>
+    </ens_capacity>
+    <ens_capacity year="2035">
+      <Hydro>0</Hydro>
+      <Coal>0</Coal>
+      <Oil>0</Oil>
+      <Gas>0</Gas>
+      <Biofuels>0</Biofuels>
+      <Peat>0</Peat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+      <Solar>0</Solar>
+      <Wind>0</Wind>
+      <Geothermal>0</Geothermal>
+      <Nuclear>0</Nuclear>
+      <ImportExport>0</ImportExport>
+    </ens_capacity>
+    <ens_capacity year="2040">
+      <Hydro>0</Hydro>
+      <Coal>0</Coal>
+      <Oil>0</Oil>
+      <Gas>0</Gas>
+      <Biofuels>0</Biofuels>
+      <Peat>0</Peat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+      <Solar>0</Solar>
+      <Wind>0</Wind>
+      <Geothermal>0</Geothermal>
+      <Nuclear>0</Nuclear>
+      <ImportExport>0</ImportExport>
+    </ens_capacity>
+    <ens_capacity year="2045">
+      <Hydro>0</Hydro>
+      <Coal>0</Coal>
+      <Oil>0</Oil>
+      <Gas>0</Gas>
+      <Biofuels>0</Biofuels>
+      <Peat>0</Peat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+      <Solar>0</Solar>
+      <Wind>0</Wind>
+      <Geothermal>0</Geothermal>
+      <Nuclear>0</Nuclear>
+      <ImportExport>0</ImportExport>
+    </ens_capacity>
+    <ens_capacity year="2050">
+      <Hydro>0</Hydro>
+      <Coal>0</Coal>
+      <Oil>0</Oil>
+      <Gas>0</Gas>
+      <Biofuels>0</Biofuels>
+      <Peat>0</Peat>
+      <Waste>0</Waste>
+      <OilShale>0</OilShale>
+      <Solar>0</Solar>
+      <Wind>0</Wind>
+      <Geothermal>0</Geothermal>
+      <Nuclear>0</Nuclear>
+      <ImportExport>0</ImportExport>
+    </ens_capacity>
+    <tra_loadfactor year="1990">
+      <Load_factor />
+    </tra_loadfactor>
+    <tra_loadfactor year="2000">
+      <Load_factor />
+    </tra_loadfactor>
+    <tra_loadfactor year="2005">
+      <Load_factor />
+    </tra_loadfactor>
+    <tra_loadfactor year="2010">
+      <Load_factor />
+    </tra_loadfactor>
+    <tra_loadfactor year="2015">
+      <Load_factor />
+    </tra_loadfactor>
+    <tra_loadfactor year="2020">
+      <Load_factor />
+    </tra_loadfactor>
+    <tra_loadfactor year="2025">
+      <Load_factor>0</Load_factor>
+    </tra_loadfactor>
+    <tra_loadfactor year="2030">
+      <Load_factor>0</Load_factor>
+    </tra_loadfactor>
+    <tra_loadfactor year="2035">
+      <Load_factor>0</Load_factor>
+    </tra_loadfactor>
+    <tra_loadfactor year="2040">
+      <Load_factor>0</Load_factor>
+    </tra_loadfactor>
+    <tra_loadfactor year="2045">
+      <Load_factor>0</Load_factor>
+    </tra_loadfactor>
+    <tra_loadfactor year="2050">
+      <Load_factor>0</Load_factor>
+    </tra_loadfactor>
+    <tra_lifetime year="1990">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </tra_lifetime>
+    <tra_lifetime year="2000">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </tra_lifetime>
+    <tra_lifetime year="2005">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </tra_lifetime>
+    <tra_lifetime year="2010">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </tra_lifetime>
+    <tra_lifetime year="2015">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </tra_lifetime>
+    <tra_lifetime year="2020">
+      <Hydro />
+      <Coal />
+      <Oil />
+      <Gas />
+      <Biofuels />
+      <Peat />
+      <Waste />
+      <OilShale />
+      <Solar />
+      <Wind />
+      <Geothermal />
+      <Nuclear />
+    </tra_lifetime>
+    <tra_lifetime year="2025">
+      <Hydro>50</Hydro>
+      <Coal>40</Coal>
+      <Oil>25</Oil>
+      <Gas>25</Gas>
+      <Biofuels>25</Biofuels>
+      <Peat>25</Peat>
+      <Waste>25</Waste>
+      <OilShale>30</OilShale>
+      <Solar>35</Solar>
+      <Wind>30</Wind>
+      <Geothermal>30</Geothermal>
+      <Nuclear>60</Nuclear>
+    </tra_lifetime>
+    <tra_lifetime year="2030">
+      <Hydro>50</Hydro>
+      <Coal>40</Coal>
+      <Oil>25</Oil>
+      <Gas>25</Gas>
+      <Biofuels>25</Biofuels>
+      <Peat>25</Peat>
+      <Waste>25</Waste>
+      <OilShale>30</OilShale>
+      <Solar>35</Solar>
+      <Wind>30</Wind>
+      <Geothermal>30</Geothermal>
+      <Nuclear>60</Nuclear>
+    </tra_lifetime>
+    <tra_lifetime year="2035">
+      <Hydro>50</Hydro>
+      <Coal>40</Coal>
+      <Oil>25</Oil>
+      <Gas>25</Gas>
+      <Biofuels>25</Biofuels>
+      <Peat>25</Peat>
+      <Waste>25</Waste>
+      <OilShale>30</OilShale>
+      <Solar>35</Solar>
+      <Wind>30</Wind>
+      <Geothermal>30</Geothermal>
+      <Nuclear>60</Nuclear>
+    </tra_lifetime>
+    <tra_lifetime year="2040">
+      <Hydro>50</Hydro>
+      <Coal>40</Coal>
+      <Oil>25</Oil>
+      <Gas>25</Gas>
+      <Biofuels>25</Biofuels>
+      <Peat>25</Peat>
+      <Waste>25</Waste>
+      <OilShale>30</OilShale>
+      <Solar>35</Solar>
+      <Wind>30</Wind>
+      <Geothermal>30</Geothermal>
+      <Nuclear>60</Nuclear>
+    </tra_lifetime>
+    <tra_lifetime year="2045">
+      <Hydro>50</Hydro>
+      <Coal>40</Coal>
+      <Oil>25</Oil>
+      <Gas>25</Gas>
+      <Biofuels>25</Biofuels>
+      <Peat>25</Peat>
+      <Waste>25</Waste>
+      <OilShale>30</OilShale>
+      <Solar>35</Solar>
+      <Wind>30</Wind>
+      <Geothermal>30</Geothermal>
+      <Nuclear>60</Nuclear>
+    </tra_lifetime>
+    <tra_lifetime year="2050">
+      <Hydro>50</Hydro>
+      <Coal>40</Coal>
+      <Oil>25</Oil>
+      <Gas>25</Gas>
+      <Biofuels>25</Biofuels>
+      <Peat>25</Peat>
+      <Waste>25</Waste>
+      <OilShale>30</OilShale>
+      <Solar>35</Solar>
+      <Wind>30</Wind>
+      <Geothermal>30</Geothermal>
+      <Nuclear>60</Nuclear>
+    </tra_lifetime>
+    <tra_technical year="1990" technology="Hydro">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="1990" technology="Coal">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="1990" technology="Oil">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="1990" technology="Gas">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="1990" technology="Biofuels">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="1990" technology="Peat">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="1990" technology="Waste">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="1990" technology="OilShale">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="1990" technology="Solar">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="1990" technology="Wind">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="1990" technology="Geothermal">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="1990" technology="Nuclear">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2000" technology="Hydro">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2000" technology="Coal">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2000" technology="Oil">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2000" technology="Gas">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2000" technology="Biofuels">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2000" technology="Peat">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2000" technology="Waste">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2000" technology="OilShale">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2000" technology="Solar">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2000" technology="Wind">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2000" technology="Geothermal">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2000" technology="Nuclear">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2005" technology="Hydro">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2005" technology="Coal">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2005" technology="Oil">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2005" technology="Gas">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2005" technology="Biofuels">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2005" technology="Peat">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2005" technology="Waste">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2005" technology="OilShale">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2005" technology="Solar">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2005" technology="Wind">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2005" technology="Geothermal">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2005" technology="Nuclear">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2010" technology="Hydro">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2010" technology="Coal">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2010" technology="Oil">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2010" technology="Gas">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2010" technology="Biofuels">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2010" technology="Peat">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2010" technology="Waste">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2010" technology="OilShale">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2010" technology="Solar">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2010" technology="Wind">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2010" technology="Geothermal">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2010" technology="Nuclear">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2015" technology="Hydro">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2015" technology="Coal">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2015" technology="Oil">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2015" technology="Gas">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2015" technology="Biofuels">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2015" technology="Peat">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2015" technology="Waste">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2015" technology="OilShale">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2015" technology="Solar">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2015" technology="Wind">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2015" technology="Geothermal">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2015" technology="Nuclear">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2020" technology="Hydro">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2020" technology="Coal">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2020" technology="Oil">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2020" technology="Gas">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2020" technology="Biofuels">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2020" technology="Peat">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2020" technology="Waste">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2020" technology="OilShale">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2020" technology="Solar">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2020" technology="Wind">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2020" technology="Geothermal">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2020" technology="Nuclear">
+      <Capacity_factor />
+      <Installed_power />
+    </tra_technical>
+    <tra_technical year="2025" technology="Hydro">
+      <Capacity_factor>31.21</Capacity_factor>
+      <Installed_power>129</Installed_power>
+    </tra_technical>
+    <tra_technical year="2025" technology="Coal">
+      <Capacity_factor>60</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2025" technology="Oil">
+      <Capacity_factor>75</Capacity_factor>
+      <Installed_power>28.09</Installed_power>
+    </tra_technical>
+    <tra_technical year="2025" technology="Gas">
+      <Capacity_factor>9.75</Capacity_factor>
+      <Installed_power>1503</Installed_power>
+    </tra_technical>
+    <tra_technical year="2025" technology="Biofuels">
+      <Capacity_factor>41.32</Capacity_factor>
+      <Installed_power>196</Installed_power>
+    </tra_technical>
+    <tra_technical year="2025" technology="Peat">
+      <Capacity_factor>40</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2025" technology="Waste">
+      <Capacity_factor>65.25</Capacity_factor>
+      <Installed_power>70</Installed_power>
+    </tra_technical>
+    <tra_technical year="2025" technology="OilShale">
+      <Capacity_factor>60</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2025" technology="Solar">
+      <Capacity_factor>11.35</Capacity_factor>
+      <Installed_power>1787</Installed_power>
+    </tra_technical>
+    <tra_technical year="2025" technology="Wind">
+      <Capacity_factor>28.58</Capacity_factor>
+      <Installed_power>1683</Installed_power>
+    </tra_technical>
+    <tra_technical year="2025" technology="Geothermal">
+      <Capacity_factor>85</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2025" technology="Nuclear">
+      <Capacity_factor>90</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2030" technology="Hydro">
+      <Capacity_factor>31.21</Capacity_factor>
+      <Installed_power>129</Installed_power>
+    </tra_technical>
+    <tra_technical year="2030" technology="Coal">
+      <Capacity_factor>60</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2030" technology="Oil">
+      <Capacity_factor>75</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2030" technology="Gas">
+      <Capacity_factor>9.75</Capacity_factor>
+      <Installed_power>1391</Installed_power>
+    </tra_technical>
+    <tra_technical year="2030" technology="Biofuels">
+      <Capacity_factor>41.32</Capacity_factor>
+      <Installed_power>196</Installed_power>
+    </tra_technical>
+    <tra_technical year="2030" technology="Peat">
+      <Capacity_factor>40</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2030" technology="Waste">
+      <Capacity_factor>65.25</Capacity_factor>
+      <Installed_power>70</Installed_power>
+    </tra_technical>
+    <tra_technical year="2030" technology="OilShale">
+      <Capacity_factor>60</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2030" technology="Solar">
+      <Capacity_factor>10.774316310361886</Capacity_factor>
+      <Installed_power>3997.0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2030" technology="Wind">
+      <Capacity_factor>22.8665344998463</Capacity_factor>
+      <Installed_power>3383.0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2030" technology="Geothermal">
+      <Capacity_factor>85</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2030" technology="Nuclear">
+      <Capacity_factor>88</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2035" technology="Hydro">
+      <Capacity_factor>31.21</Capacity_factor>
+      <Installed_power>129</Installed_power>
+    </tra_technical>
+    <tra_technical year="2035" technology="Coal">
+      <Capacity_factor>60</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2035" technology="Oil">
+      <Capacity_factor>75</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2035" technology="Gas">
+      <Capacity_factor>9.75</Capacity_factor>
+      <Installed_power>679</Installed_power>
+    </tra_technical>
+    <tra_technical year="2035" technology="Biofuels">
+      <Capacity_factor>41.32</Capacity_factor>
+      <Installed_power>196</Installed_power>
+    </tra_technical>
+    <tra_technical year="2035" technology="Peat">
+      <Capacity_factor>40</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2035" technology="Waste">
+      <Capacity_factor>65.25</Capacity_factor>
+      <Installed_power>70</Installed_power>
+    </tra_technical>
+    <tra_technical year="2035" technology="OilShale">
+      <Capacity_factor>60</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2035" technology="Solar">
+      <Capacity_factor>10.73150033384208</Capacity_factor>
+      <Installed_power>3997.0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2035" technology="Wind">
+      <Capacity_factor>21.283168236450948</Capacity_factor>
+      <Installed_power>3233.0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2035" technology="Geothermal">
+      <Capacity_factor>85</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2035" technology="Nuclear">
+      <Capacity_factor>88</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2040" technology="Hydro">
+      <Capacity_factor>31.21</Capacity_factor>
+      <Installed_power>129</Installed_power>
+    </tra_technical>
+    <tra_technical year="2040" technology="Coal">
+      <Capacity_factor>60</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2040" technology="Oil">
+      <Capacity_factor>75</Capacity_factor>
+      <Installed_power>14</Installed_power>
+    </tra_technical>
+    <tra_technical year="2040" technology="Gas">
+      <Capacity_factor>9.75</Capacity_factor>
+      <Installed_power>567</Installed_power>
+    </tra_technical>
+    <tra_technical year="2040" technology="Biofuels">
+      <Capacity_factor>41.32</Capacity_factor>
+      <Installed_power>180</Installed_power>
+    </tra_technical>
+    <tra_technical year="2040" technology="Peat">
+      <Capacity_factor>40</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2040" technology="Waste">
+      <Capacity_factor>65.25</Capacity_factor>
+      <Installed_power>70</Installed_power>
+    </tra_technical>
+    <tra_technical year="2040" technology="OilShale">
+      <Capacity_factor>60</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2040" technology="Solar">
+      <Capacity_factor>10.608082153607612</Capacity_factor>
+      <Installed_power>3997.0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2040" technology="Wind">
+      <Capacity_factor>19.242567627474273</Capacity_factor>
+      <Installed_power>2983.0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2040" technology="Geothermal">
+      <Capacity_factor>85</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2040" technology="Nuclear">
+      <Capacity_factor>88</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2045" technology="Hydro">
+      <Capacity_factor>31.21</Capacity_factor>
+      <Installed_power>129</Installed_power>
+    </tra_technical>
+    <tra_technical year="2045" technology="Coal">
+      <Capacity_factor>60</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2045" technology="Oil">
+      <Capacity_factor>75</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2045" technology="Gas">
+      <Capacity_factor>9.75</Capacity_factor>
+      <Installed_power>455</Installed_power>
+    </tra_technical>
+    <tra_technical year="2045" technology="Biofuels">
+      <Capacity_factor>41.32</Capacity_factor>
+      <Installed_power>110</Installed_power>
+    </tra_technical>
+    <tra_technical year="2045" technology="Peat">
+      <Capacity_factor>40</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2045" technology="Waste">
+      <Capacity_factor>65.25</Capacity_factor>
+      <Installed_power>50</Installed_power>
+    </tra_technical>
+    <tra_technical year="2045" technology="OilShale">
+      <Capacity_factor>60</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2045" technology="Solar">
+      <Capacity_factor>10.413312229477693</Capacity_factor>
+      <Installed_power>3930.0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2045" technology="Wind">
+      <Capacity_factor>17.743524131272984</Capacity_factor>
+      <Installed_power>2753.0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2045" technology="Geothermal">
+      <Capacity_factor>85</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2045" technology="Nuclear">
+      <Capacity_factor>88</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2050" technology="Hydro">
+      <Capacity_factor>31.21</Capacity_factor>
+      <Installed_power>129</Installed_power>
+    </tra_technical>
+    <tra_technical year="2050" technology="Coal">
+      <Capacity_factor>60</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2050" technology="Oil">
+      <Capacity_factor>75</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2050" technology="Gas">
+      <Capacity_factor>9.75</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2050" technology="Biofuels">
+      <Capacity_factor>41.32</Capacity_factor>
+      <Installed_power>40</Installed_power>
+    </tra_technical>
+    <tra_technical year="2050" technology="Peat">
+      <Capacity_factor>40</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2050" technology="Waste">
+      <Capacity_factor>65.25</Capacity_factor>
+      <Installed_power>50</Installed_power>
+    </tra_technical>
+    <tra_technical year="2050" technology="OilShale">
+      <Capacity_factor>60</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2050" technology="Solar">
+      <Capacity_factor>10.258341136757831</Capacity_factor>
+      <Installed_power>3850.0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2050" technology="Wind">
+      <Capacity_factor>15.840085578817241</Capacity_factor>
+      <Installed_power>1953.0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2050" technology="Geothermal">
+      <Capacity_factor>85</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_technical year="2050" technology="Nuclear">
+      <Capacity_factor>88</Capacity_factor>
+      <Installed_power>0</Installed_power>
+    </tra_technical>
+    <tra_envirioment year="1990" technology="Hydro">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="1990" technology="Coal">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="1990" technology="Oil">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="1990" technology="Gas">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="1990" technology="Biofuels">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="1990" technology="Peat">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="1990" technology="Waste">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="1990" technology="OilShale">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="1990" technology="Solar">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="1990" technology="Wind">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="1990" technology="Geothermal">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="1990" technology="Nuclear">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2000" technology="Hydro">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2000" technology="Coal">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2000" technology="Oil">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2000" technology="Gas">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2000" technology="Biofuels">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2000" technology="Peat">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2000" technology="Waste">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2000" technology="OilShale">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2000" technology="Solar">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2000" technology="Wind">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2000" technology="Geothermal">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2000" technology="Nuclear">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2005" technology="Hydro">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2005" technology="Coal">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2005" technology="Oil">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2005" technology="Gas">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2005" technology="Biofuels">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2005" technology="Peat">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2005" technology="Waste">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2005" technology="OilShale">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2005" technology="Solar">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2005" technology="Wind">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2005" technology="Geothermal">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2005" technology="Nuclear">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2010" technology="Hydro">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2010" technology="Coal">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2010" technology="Oil">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2010" technology="Gas">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2010" technology="Biofuels">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2010" technology="Peat">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2010" technology="Waste">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2010" technology="OilShale">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2010" technology="Solar">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2010" technology="Wind">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2010" technology="Geothermal">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2010" technology="Nuclear">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2015" technology="Hydro">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2015" technology="Coal">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2015" technology="Oil">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2015" technology="Gas">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2015" technology="Biofuels">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2015" technology="Peat">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2015" technology="Waste">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2015" technology="OilShale">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2015" technology="Solar">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2015" technology="Wind">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2015" technology="Geothermal">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2015" technology="Nuclear">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2020" technology="Hydro">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2020" technology="Coal">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2020" technology="Oil">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2020" technology="Gas">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2020" technology="Biofuels">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2020" technology="Peat">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2020" technology="Waste">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2020" technology="OilShale">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2020" technology="Solar">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2020" technology="Wind">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2020" technology="Geothermal">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2020" technology="Nuclear">
+      <CO2 />
+      <NOX />
+      <SO2 />
+      <Other />
+    </tra_envirioment>
+    <tra_envirioment year="2025" technology="Hydro">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2025" technology="Coal">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2025" technology="Oil">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2025" technology="Gas">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2025" technology="Biofuels">
+      <CO2>100</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2025" technology="Peat">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2025" technology="Waste">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2025" technology="OilShale">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2025" technology="Solar">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2025" technology="Wind">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2025" technology="Geothermal">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2025" technology="Nuclear">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2030" technology="Hydro">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2030" technology="Coal">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2030" technology="Oil">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2030" technology="Gas">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2030" technology="Biofuels">
+      <CO2>100</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2030" technology="Peat">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2030" technology="Waste">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2030" technology="OilShale">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2030" technology="Solar">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2030" technology="Wind">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2030" technology="Geothermal">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2030" technology="Nuclear">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2035" technology="Hydro">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2035" technology="Coal">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2035" technology="Oil">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2035" technology="Gas">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2035" technology="Biofuels">
+      <CO2>100</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2035" technology="Peat">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2035" technology="Waste">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2035" technology="OilShale">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2035" technology="Solar">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2035" technology="Wind">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2035" technology="Geothermal">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2035" technology="Nuclear">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2040" technology="Hydro">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2040" technology="Coal">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2040" technology="Oil">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2040" technology="Gas">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2040" technology="Biofuels">
+      <CO2>100</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2040" technology="Peat">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2040" technology="Waste">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2040" technology="OilShale">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2040" technology="Solar">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2040" technology="Wind">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2040" technology="Geothermal">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2040" technology="Nuclear">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2045" technology="Hydro">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2045" technology="Coal">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2045" technology="Oil">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2045" technology="Gas">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2045" technology="Biofuels">
+      <CO2>100</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2045" technology="Peat">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2045" technology="Waste">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2045" technology="OilShale">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2045" technology="Solar">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2045" technology="Wind">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2045" technology="Geothermal">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2045" technology="Nuclear">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2050" technology="Hydro">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2050" technology="Coal">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2050" technology="Oil">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2050" technology="Gas">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2050" technology="Biofuels">
+      <CO2>100</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2050" technology="Peat">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2050" technology="Waste">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2050" technology="OilShale">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2050" technology="Solar">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2050" technology="Wind">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2050" technology="Geothermal">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_envirioment year="2050" technology="Nuclear">
+      <CO2>0</CO2>
+      <NOX>0</NOX>
+      <SO2>0</SO2>
+      <Other>0</Other>
+    </tra_envirioment>
+    <tra_finance year="1990" technology="Hydro">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="1990" technology="Coal">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="1990" technology="Oil">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="1990" technology="Gas">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="1990" technology="Biofuels">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="1990" technology="Peat">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="1990" technology="Waste">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="1990" technology="OilShale">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="1990" technology="Solar">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="1990" technology="Wind">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="1990" technology="Geothermal">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="1990" technology="Nuclear">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2000" technology="Hydro">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2000" technology="Coal">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2000" technology="Oil">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2000" technology="Gas">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2000" technology="Biofuels">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2000" technology="Peat">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2000" technology="Waste">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2000" technology="OilShale">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2000" technology="Solar">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2000" technology="Wind">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2000" technology="Geothermal">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2000" technology="Nuclear">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2005" technology="Hydro">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2005" technology="Coal">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2005" technology="Oil">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2005" technology="Gas">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2005" technology="Biofuels">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2005" technology="Peat">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2005" technology="Waste">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2005" technology="OilShale">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2005" technology="Solar">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2005" technology="Wind">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2005" technology="Geothermal">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2005" technology="Nuclear">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2010" technology="Hydro">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2010" technology="Coal">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2010" technology="Oil">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2010" technology="Gas">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2010" technology="Biofuels">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2010" technology="Peat">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2010" technology="Waste">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2010" technology="OilShale">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2010" technology="Solar">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2010" technology="Wind">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2010" technology="Geothermal">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2010" technology="Nuclear">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2015" technology="Hydro">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2015" technology="Coal">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2015" technology="Oil">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2015" technology="Gas">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2015" technology="Biofuels">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2015" technology="Peat">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2015" technology="Waste">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2015" technology="OilShale">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2015" technology="Solar">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2015" technology="Wind">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2015" technology="Geothermal">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2015" technology="Nuclear">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2020" technology="Hydro">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2020" technology="Coal">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2020" technology="Oil">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2020" technology="Gas">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2020" technology="Biofuels">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2020" technology="Peat">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2020" technology="Waste">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2020" technology="OilShale">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2020" technology="Solar">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2020" technology="Wind">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2020" technology="Geothermal">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2020" technology="Nuclear">
+      <Fuel_cost />
+      <Investment_cost />
+      <Operating_cost_fixed />
+      <Operating_cost_variable />
+    </tra_finance>
+    <tra_finance year="2025" technology="Hydro">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>3000</Investment_cost>
+      <Operating_cost_fixed>45</Operating_cost_fixed>
+      <Operating_cost_variable>0</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2025" technology="Coal">
+      <Fuel_cost>3.5</Fuel_cost>
+      <Investment_cost>2000</Investment_cost>
+      <Operating_cost_fixed>45</Operating_cost_fixed>
+      <Operating_cost_variable>4</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2025" technology="Oil">
+      <Fuel_cost>13</Fuel_cost>
+      <Investment_cost>800</Investment_cost>
+      <Operating_cost_fixed>15</Operating_cost_fixed>
+      <Operating_cost_variable>7</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2025" technology="Gas">
+      <Fuel_cost>10</Fuel_cost>
+      <Investment_cost>900</Investment_cost>
+      <Operating_cost_fixed>25</Operating_cost_fixed>
+      <Operating_cost_variable>4.5</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2025" technology="Biofuels">
+      <Fuel_cost>5.5</Fuel_cost>
+      <Investment_cost>2800</Investment_cost>
+      <Operating_cost_fixed>90</Operating_cost_fixed>
+      <Operating_cost_variable>5</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2025" technology="Peat">
+      <Fuel_cost>3</Fuel_cost>
+      <Investment_cost>2500</Investment_cost>
+      <Operating_cost_fixed>70</Operating_cost_fixed>
+      <Operating_cost_variable>5</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2025" technology="Waste">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>7000</Investment_cost>
+      <Operating_cost_fixed>250</Operating_cost_fixed>
+      <Operating_cost_variable>20</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2025" technology="OilShale">
+      <Fuel_cost>1.5</Fuel_cost>
+      <Investment_cost>2500</Investment_cost>
+      <Operating_cost_fixed>60</Operating_cost_fixed>
+      <Operating_cost_variable>5</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2025" technology="Solar">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>600</Investment_cost>
+      <Operating_cost_fixed>10</Operating_cost_fixed>
+      <Operating_cost_variable>0</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2025" technology="Wind">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>1400</Investment_cost>
+      <Operating_cost_fixed>20</Operating_cost_fixed>
+      <Operating_cost_variable>2</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2025" technology="Geothermal">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>4000</Investment_cost>
+      <Operating_cost_fixed>100</Operating_cost_fixed>
+      <Operating_cost_variable>0</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2025" technology="Nuclear">
+      <Fuel_cost>0.8</Fuel_cost>
+      <Investment_cost>7000</Investment_cost>
+      <Operating_cost_fixed>120</Operating_cost_fixed>
+      <Operating_cost_variable>3</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2030" technology="Hydro">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>3000</Investment_cost>
+      <Operating_cost_fixed>45</Operating_cost_fixed>
+      <Operating_cost_variable>0</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2030" technology="Coal">
+      <Fuel_cost>3.2</Fuel_cost>
+      <Investment_cost>2000</Investment_cost>
+      <Operating_cost_fixed>45</Operating_cost_fixed>
+      <Operating_cost_variable>4</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2030" technology="Oil">
+      <Fuel_cost>13</Fuel_cost>
+      <Investment_cost>800</Investment_cost>
+      <Operating_cost_fixed>15</Operating_cost_fixed>
+      <Operating_cost_variable>7</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2030" technology="Gas">
+      <Fuel_cost>8</Fuel_cost>
+      <Investment_cost>880</Investment_cost>
+      <Operating_cost_fixed>25</Operating_cost_fixed>
+      <Operating_cost_variable>4.5</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2030" technology="Biofuels">
+      <Fuel_cost>5.5</Fuel_cost>
+      <Investment_cost>2700</Investment_cost>
+      <Operating_cost_fixed>90</Operating_cost_fixed>
+      <Operating_cost_variable>5</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2030" technology="Peat">
+      <Fuel_cost>3</Fuel_cost>
+      <Investment_cost>2500</Investment_cost>
+      <Operating_cost_fixed>70</Operating_cost_fixed>
+      <Operating_cost_variable>5</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2030" technology="Waste">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>7000</Investment_cost>
+      <Operating_cost_fixed>250</Operating_cost_fixed>
+      <Operating_cost_variable>20</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2030" technology="OilShale">
+      <Fuel_cost>1.5</Fuel_cost>
+      <Investment_cost>2500</Investment_cost>
+      <Operating_cost_fixed>60</Operating_cost_fixed>
+      <Operating_cost_variable>5</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2030" technology="Solar">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>500</Investment_cost>
+      <Operating_cost_fixed>9</Operating_cost_fixed>
+      <Operating_cost_variable>0</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2030" technology="Wind">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>1300</Investment_cost>
+      <Operating_cost_fixed>19</Operating_cost_fixed>
+      <Operating_cost_variable>2</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2030" technology="Geothermal">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>4000</Investment_cost>
+      <Operating_cost_fixed>100</Operating_cost_fixed>
+      <Operating_cost_variable>0</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2030" technology="Nuclear">
+      <Fuel_cost>0.8</Fuel_cost>
+      <Investment_cost>7000</Investment_cost>
+      <Operating_cost_fixed>120</Operating_cost_fixed>
+      <Operating_cost_variable>3</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2035" technology="Hydro">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>3000</Investment_cost>
+      <Operating_cost_fixed>45</Operating_cost_fixed>
+      <Operating_cost_variable>0</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2035" technology="Coal">
+      <Fuel_cost>3</Fuel_cost>
+      <Investment_cost>2000</Investment_cost>
+      <Operating_cost_fixed>45</Operating_cost_fixed>
+      <Operating_cost_variable>4</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2035" technology="Oil">
+      <Fuel_cost>13</Fuel_cost>
+      <Investment_cost>800</Investment_cost>
+      <Operating_cost_fixed>15</Operating_cost_fixed>
+      <Operating_cost_variable>7</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2035" technology="Gas">
+      <Fuel_cost>7.5</Fuel_cost>
+      <Investment_cost>860</Investment_cost>
+      <Operating_cost_fixed>25</Operating_cost_fixed>
+      <Operating_cost_variable>4.5</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2035" technology="Biofuels">
+      <Fuel_cost>6</Fuel_cost>
+      <Investment_cost>2650</Investment_cost>
+      <Operating_cost_fixed>90</Operating_cost_fixed>
+      <Operating_cost_variable>5</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2035" technology="Peat">
+      <Fuel_cost>3</Fuel_cost>
+      <Investment_cost>2500</Investment_cost>
+      <Operating_cost_fixed>70</Operating_cost_fixed>
+      <Operating_cost_variable>5</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2035" technology="Waste">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>7000</Investment_cost>
+      <Operating_cost_fixed>250</Operating_cost_fixed>
+      <Operating_cost_variable>20</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2035" technology="OilShale">
+      <Fuel_cost>1.5</Fuel_cost>
+      <Investment_cost>2500</Investment_cost>
+      <Operating_cost_fixed>60</Operating_cost_fixed>
+      <Operating_cost_variable>5</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2035" technology="Solar">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>450</Investment_cost>
+      <Operating_cost_fixed>9</Operating_cost_fixed>
+      <Operating_cost_variable>0</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2035" technology="Wind">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>1250</Investment_cost>
+      <Operating_cost_fixed>18</Operating_cost_fixed>
+      <Operating_cost_variable>2</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2035" technology="Geothermal">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>4000</Investment_cost>
+      <Operating_cost_fixed>100</Operating_cost_fixed>
+      <Operating_cost_variable>0</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2035" technology="Nuclear">
+      <Fuel_cost>0.8</Fuel_cost>
+      <Investment_cost>7000</Investment_cost>
+      <Operating_cost_fixed>120</Operating_cost_fixed>
+      <Operating_cost_variable>3</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2040" technology="Hydro">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>3000</Investment_cost>
+      <Operating_cost_fixed>45</Operating_cost_fixed>
+      <Operating_cost_variable>0</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2040" technology="Coal">
+      <Fuel_cost>3</Fuel_cost>
+      <Investment_cost>2000</Investment_cost>
+      <Operating_cost_fixed>45</Operating_cost_fixed>
+      <Operating_cost_variable>4</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2040" technology="Oil">
+      <Fuel_cost>13</Fuel_cost>
+      <Investment_cost>800</Investment_cost>
+      <Operating_cost_fixed>15</Operating_cost_fixed>
+      <Operating_cost_variable>7</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2040" technology="Gas">
+      <Fuel_cost>7.5</Fuel_cost>
+      <Investment_cost>850</Investment_cost>
+      <Operating_cost_fixed>25</Operating_cost_fixed>
+      <Operating_cost_variable>4.5</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2040" technology="Biofuels">
+      <Fuel_cost>6</Fuel_cost>
+      <Investment_cost>2600</Investment_cost>
+      <Operating_cost_fixed>90</Operating_cost_fixed>
+      <Operating_cost_variable>5</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2040" technology="Peat">
+      <Fuel_cost>3</Fuel_cost>
+      <Investment_cost>2500</Investment_cost>
+      <Operating_cost_fixed>70</Operating_cost_fixed>
+      <Operating_cost_variable>5</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2040" technology="Waste">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>7000</Investment_cost>
+      <Operating_cost_fixed>250</Operating_cost_fixed>
+      <Operating_cost_variable>20</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2040" technology="OilShale">
+      <Fuel_cost>1.5</Fuel_cost>
+      <Investment_cost>2500</Investment_cost>
+      <Operating_cost_fixed>60</Operating_cost_fixed>
+      <Operating_cost_variable>5</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2040" technology="Solar">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>400</Investment_cost>
+      <Operating_cost_fixed>8</Operating_cost_fixed>
+      <Operating_cost_variable>0</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2040" technology="Wind">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>1200</Investment_cost>
+      <Operating_cost_fixed>18</Operating_cost_fixed>
+      <Operating_cost_variable>2</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2040" technology="Geothermal">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>4000</Investment_cost>
+      <Operating_cost_fixed>100</Operating_cost_fixed>
+      <Operating_cost_variable>0</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2040" technology="Nuclear">
+      <Fuel_cost>0.8</Fuel_cost>
+      <Investment_cost>7000</Investment_cost>
+      <Operating_cost_fixed>120</Operating_cost_fixed>
+      <Operating_cost_variable>3</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2045" technology="Hydro">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>3000</Investment_cost>
+      <Operating_cost_fixed>45</Operating_cost_fixed>
+      <Operating_cost_variable>0</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2045" technology="Coal">
+      <Fuel_cost>3</Fuel_cost>
+      <Investment_cost>2000</Investment_cost>
+      <Operating_cost_fixed>45</Operating_cost_fixed>
+      <Operating_cost_variable>4</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2045" technology="Oil">
+      <Fuel_cost>13</Fuel_cost>
+      <Investment_cost>800</Investment_cost>
+      <Operating_cost_fixed>15</Operating_cost_fixed>
+      <Operating_cost_variable>7</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2045" technology="Gas">
+      <Fuel_cost>7.5</Fuel_cost>
+      <Investment_cost>850</Investment_cost>
+      <Operating_cost_fixed>25</Operating_cost_fixed>
+      <Operating_cost_variable>4.5</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2045" technology="Biofuels">
+      <Fuel_cost>6</Fuel_cost>
+      <Investment_cost>2600</Investment_cost>
+      <Operating_cost_fixed>90</Operating_cost_fixed>
+      <Operating_cost_variable>5</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2045" technology="Peat">
+      <Fuel_cost>3</Fuel_cost>
+      <Investment_cost>2500</Investment_cost>
+      <Operating_cost_fixed>70</Operating_cost_fixed>
+      <Operating_cost_variable>5</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2045" technology="Waste">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>7000</Investment_cost>
+      <Operating_cost_fixed>250</Operating_cost_fixed>
+      <Operating_cost_variable>20</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2045" technology="OilShale">
+      <Fuel_cost>1.5</Fuel_cost>
+      <Investment_cost>2500</Investment_cost>
+      <Operating_cost_fixed>60</Operating_cost_fixed>
+      <Operating_cost_variable>5</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2045" technology="Solar">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>380</Investment_cost>
+      <Operating_cost_fixed>8</Operating_cost_fixed>
+      <Operating_cost_variable>0</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2045" technology="Wind">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>1150</Investment_cost>
+      <Operating_cost_fixed>17</Operating_cost_fixed>
+      <Operating_cost_variable>2</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2045" technology="Geothermal">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>4000</Investment_cost>
+      <Operating_cost_fixed>100</Operating_cost_fixed>
+      <Operating_cost_variable>0</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2045" technology="Nuclear">
+      <Fuel_cost>0.8</Fuel_cost>
+      <Investment_cost>7000</Investment_cost>
+      <Operating_cost_fixed>120</Operating_cost_fixed>
+      <Operating_cost_variable>3</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2050" technology="Hydro">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>3000</Investment_cost>
+      <Operating_cost_fixed>45</Operating_cost_fixed>
+      <Operating_cost_variable>0</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2050" technology="Coal">
+      <Fuel_cost>3</Fuel_cost>
+      <Investment_cost>2000</Investment_cost>
+      <Operating_cost_fixed>45</Operating_cost_fixed>
+      <Operating_cost_variable>4</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2050" technology="Oil">
+      <Fuel_cost>13</Fuel_cost>
+      <Investment_cost>800</Investment_cost>
+      <Operating_cost_fixed>15</Operating_cost_fixed>
+      <Operating_cost_variable>7</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2050" technology="Gas">
+      <Fuel_cost>7.5</Fuel_cost>
+      <Investment_cost>850</Investment_cost>
+      <Operating_cost_fixed>25</Operating_cost_fixed>
+      <Operating_cost_variable>4.5</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2050" technology="Biofuels">
+      <Fuel_cost>6</Fuel_cost>
+      <Investment_cost>2600</Investment_cost>
+      <Operating_cost_fixed>90</Operating_cost_fixed>
+      <Operating_cost_variable>5</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2050" technology="Peat">
+      <Fuel_cost>3</Fuel_cost>
+      <Investment_cost>2500</Investment_cost>
+      <Operating_cost_fixed>70</Operating_cost_fixed>
+      <Operating_cost_variable>5</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2050" technology="Waste">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>7000</Investment_cost>
+      <Operating_cost_fixed>250</Operating_cost_fixed>
+      <Operating_cost_variable>20</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2050" technology="OilShale">
+      <Fuel_cost>1.5</Fuel_cost>
+      <Investment_cost>2500</Investment_cost>
+      <Operating_cost_fixed>60</Operating_cost_fixed>
+      <Operating_cost_variable>5</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2050" technology="Solar">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>360</Investment_cost>
+      <Operating_cost_fixed>8</Operating_cost_fixed>
+      <Operating_cost_variable>0</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2050" technology="Wind">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>1100</Investment_cost>
+      <Operating_cost_fixed>17</Operating_cost_fixed>
+      <Operating_cost_variable>2</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2050" technology="Geothermal">
+      <Fuel_cost>0</Fuel_cost>
+      <Investment_cost>4000</Investment_cost>
+      <Operating_cost_fixed>100</Operating_cost_fixed>
+      <Operating_cost_variable>0</Operating_cost_variable>
+    </tra_finance>
+    <tra_finance year="2050" technology="Nuclear">
+      <Fuel_cost>0.8</Fuel_cost>
+      <Investment_cost>7000</Investment_cost>
+      <Operating_cost_fixed>120</Operating_cost_fixed>
+      <Operating_cost_variable>3</Operating_cost_variable>
+    </tra_finance>
+  </Transformation>
+</Cases>
